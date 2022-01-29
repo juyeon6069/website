@@ -15,7 +15,10 @@ const Banner = () => {
         textAlign: "right"
       }}
     >
-      
+
+      <li class>
+        <a className="menu-item" class="smoothScroll" href="#contact">Contact</a>
+      </li>      
       <li class>
         <a className="menu-item" class="smoothScroll" href="#about">About</a>
       </li>
