@@ -1,0 +1,11 @@
+.menu {  
+  height: 56px;
+}
+  
+.menu-item {
+  color: #878B8E;
+  font-size: 16px;
+  margin: 60px;
+  width: 3%;
+  cursor: pointer;
+}
