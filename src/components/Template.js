@@ -70,9 +70,9 @@ const Template = () => {
                     </div>
 
                 </div>
-                <div style={{display:"flex", flexDirection: "row"}}>
-                    <a href="http://localhost:3000/" style={{width: "fit-content"}}>
-                        <button  className="links" style={{backgroundColor: "#f46e46", padding: "20%"}}>
+                <div style={{display:"flex", flexDirection: "row", overflowX: "hidden"}}>
+                    <a href="http://localhost:3000/" style={{width: "33.3%"}}>
+                        <button  className="links" style={{backgroundColor: "#f46e46", padding: "20%",}}>
                             <div style={{display: "flex", flexDirection:"row"}}>
                                 <IoEarth className="icon" size={"2.2rem"}></IoEarth>
                                 <div className="link-info">My site</div>
@@ -80,7 +80,7 @@ const Template = () => {
                                 <div className="link-name">Website</div>
                         </button>
                     </a>
-                    <a href="https://github.com/">
+                    <a href="https://github.com/" style={{width: "33.3%"}}>
                         <button className="links" style={{backgroundColor: "#211f1f", padding: "20%"}}>
                             <div style={{display: "flex", flexDirection:"row"}}>
                                 <AiFillGithub className="icon" size={"2.2rem"}></AiFillGithub>   
@@ -89,7 +89,7 @@ const Template = () => {
                             <div className="link-name">GitHub</div>
                         </button>
                     </a>
-                    <a href="https://www.linkedin.com/in/juyeon-nam-675608225/">
+                    <a href="https://www.linkedin.com/in/juyeon-nam-675608225/" style={{width: "33.3%"}}>
                         <button className="links" style={{backgroundColor: "#55acee", padding: "20%"}}>
                             <div style={{display: "flex", flexDirection:"row"}}>
                                 <FaLinkedinIn className="icon" size={"2.2rem"}></FaLinkedinIn>    
