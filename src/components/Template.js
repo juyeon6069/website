@@ -11,7 +11,7 @@ const Template = () => {
             <div className ="template">
                 <div className="home">
                     <div style={{position: "absolute",left: "50%",top: "50%", transform: "translate(-50%,-50%)"}}>
-                        <div style={{fontSize:"55px", fontWeight:"3x", textAlign:"center", paddingBottom:"10px", color:"#262626"}}>
+                        <div style={{fontSize:"55px", fontWeight:"bold", textAlign:"center", paddingBottom:"10px", color:"#262626"}}>
                             Juyeon Nam 
                         </div>
                         <div style={{fontSize:"28px", fontWeight:"bolder", textAlign:"center", paddingBottom:"40px", color:"#4E217A"}}>
